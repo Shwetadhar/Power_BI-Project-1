@@ -6,7 +6,7 @@
 
 import pandas as pd
 
-file_path = 'events.xlsx'
+file_path = 'data.xlsx'
 
 # Load the Excel file using openpyxl
 events_df = pd.read_excel(file_path, engine='openpyxl')
